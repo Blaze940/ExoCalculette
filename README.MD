@@ -1,3 +1,11 @@
+To test
+
+Execute `cd src`
+
+Execute `javac Calc.java`
+
+Execute `java Calc numbers.csv +`
+
 Create an app that calculates an operations on a CSV
 
 This program takes a file name as argument and an operation (limited to + and *):
