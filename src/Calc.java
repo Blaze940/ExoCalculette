@@ -25,7 +25,7 @@ public class Calc {
 
         try {
             List<Integer> numbers = inputHandler.readCsv(filename);
-            List<String> results = calculationLogic.calculate(numbers, operation);
+            List<String> results = calculationLogic.calculateAndShowResult(numbers, operation);
             outputHandler.displayResults(results);
         } catch (IOException e) {
             System.out.println("Error reading file: " + e.getMessage());
